@@ -1,10 +1,10 @@
 # Bank account
 # Author
-UWIZEYIMANA Hulde
+Mukankurunziza Opportunee
 
 # contact
-* Email:uwizeyimanahulde1@gmail.com
-* 0782356570
+* Email:nshutioppo@yahoo.fr
+* 0785073251
 # Set up instruction
 * Visual studio code
 * Github
@@ -18,7 +18,6 @@ This is bank account project can deposit and withdraw money.
 * README
 * JavaScript
 # Link
-If you want more info:  https://uwizeyeh.github.io/bank-account/
-
+If you want more info: https://omukankurunziza.github.io/Bank-Account/
 # License
 copyright(c)2019
