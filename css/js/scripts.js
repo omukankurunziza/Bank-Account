@@ -45,7 +45,11 @@ $(document).ready(function(){
 var name =$('#namee').val();
 console.log(name)
  $('#dg').text(name);
- $('#dg').text(name);
+
+ var student =$('#initial').val();
+console.log(student)
+ $('#mg').text(student);
+ 
  });
 
 
