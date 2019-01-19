@@ -1,68 +1,52 @@
 <!DOCTYPE html>
-<html >
-    <head>
+<html>
+<head>
     <meta charset="UTF-8">
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
        <link rel="stylesheet" type="text/css" href="css/styles.css">
        <title>accunt</title>
+      
     </head>
-    <body>
-        <div id="create">
-            <div class="container">
-                <div class="jumbtron">
-                    <div class="panel panel-info">
-                        <h1>CREATE ACCOUNT</h1>
+<body>
+  <div class="gikweri">
+       <form id="bank" >
+           <div class="well">
+               <p id ="regi"><strong>Fill this form if you open new Account</strong></p>
+               <label><input type="text" id="namee" > name</label><br>
+                <label><input type="text" id="nid">Natioanl ID or Passport number</label><br>
+                <label><input type="text"  id="trph">Telphone number</label><br>
+                 <input type="email"  id="inputEmail" placeholder="Email Address">Email</label><br>
+                 <label><input type="number" id="initial"required>Initial deposit</label><br>
+                   <button type="button" name="results" value="SUBMIT" id="new" class="btn btn-success">kigali </button>
+           </div>
+       </form>
+  </div>
 
-                     </div>
-
+  <div class="container1">
+       <form>
+            <div clas="row">
+                <div class="col-md-6">
+                   <p id ="regi"><strong>Client Details </strong></p>
+                    <label  id="dg">name</label><br>
                 </div>
-                <form id="bank" action="index.html" method="POST" name="bank">
-                    <div class="well">
-                            <div id="me">
-                                    <img src="images/create.jpeg">
-                                </div>
-                            
-                                   
-                                        <p id ="regi"><strong>Fill this form if you open new Account</strong></p>
-                                        <label><input type="text" >First name</label><br>
-                                        <label><input type="text" >Second name</label><br>
-                                        <label><input type="text" >Natioanl ID or Passport number</label><br>
-                                        <label><input type="text" >Telphone number</label><br>
-                                        <label></label><input type="email"  id="inputEmail" placeholder="Email Address">Email</label><br>
 
-                                        <label><input type="number" id="initial"required>Initial deposit</label><br>
-                                       
-
-                                        <input type="button" name="results" value="SUBMIT" id="button" class="btn btn-success">   
-                                        <p >Click here to Deposit  if to do it after craeting an account <a href="bank.html">Deposit</a></p>
-                                        <p>Click here <a href="index.html">back</a></p>
-                                                  
-                    </div>   
-                </form>
-                <div class="panel panel-default">
-                    <div class="panel-body">
-            
-                        <p>Time 7h:30 am-6:00pm</p>
-                        <p>Contact : +250785073251</p>
-                    </div>    
-            
-         
+                <div class="col-md-6">
+                    <p id="regi">Deposit or Withdraw form</p>
+                    <label><input type="text"  required>deposit Amount</label><br>
+                    <label><input type="text"  required>Withdraw Amount</label><br>
+                    
                 </div>
-       
-        </div>
-    </div>
-    
-        
-            
-        
-            <script src="js/jquery.js"></script>
+            </div>                    
+        </form>
+     
+                                
+</div>
+
+
+           <script src="css/js/jquery.js"></script>
             <script src="js/bootstrap.min.js"></script>
-            <script src="js/scripts.js"></script>
-               
-                
-    </body>
+            <script src="css/js/scripts.js"></script>
+</body>
 </html>
-
-

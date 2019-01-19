@@ -1,10 +1,10 @@
 
      
-     #create{
+     /*#create{
          background-image:url(../images/depo.jpeg);
          background-repeat: no-repeat;
          background-size: cover;
-
+*/
      }
 
 .jumbtron{
@@ -23,12 +23,12 @@ h1{
 #med{
   text-align: center;
 }
-#Home{
+/*#Home{
   background-image:url(../images/depo.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 
-}
+}*/
 .panel{
   background-color:linen;
 }
@@ -39,11 +39,11 @@ h1{
 
 
 }
-#acount{
+/*#acount{
   background-image:url(../images/h1.jpeg) ;
   background-repeat: no-repeat;
   background-size: cover;
-}
+}*/
 #acount p{
   font-family: 'Times New Roman', Times, serif;
   font-size: 24px;
@@ -59,4 +59,7 @@ h1{
 
 .well{
     background-color: bisque;
+}
+.container1{
+  display: none;
 }

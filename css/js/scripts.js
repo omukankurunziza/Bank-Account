@@ -36,4 +36,18 @@
 
 // Business-Logic
 
+$(document).ready(function(){
+    $("button#new").click(function(){
+    $(".gikweri").hide();
+    $(".container1").show();
+
+
+var name =$('#namee').val();
+console.log(name)
+ $('#dg').text(name);
+ $('#dg').text(name);
+ });
+
+
+});
 
