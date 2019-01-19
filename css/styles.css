@@ -1,14 +1,6 @@
-
-     
-     /*#create{
-         background-image:url(../images/depo.jpeg);
-         background-repeat: no-repeat;
-         background-size: cover;
-*/
-     }
-
+  
 .jumbtron{
-background-color:lightgrey;
+background-color:grey;
 
 }
 h1{
@@ -23,12 +15,8 @@ h1{
 #med{
   text-align: center;
 }
-/*#Home{
-  background-image:url(../images/depo.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
 
-}*/
+
 .panel{
   background-color:linen;
 }
@@ -39,11 +27,6 @@ h1{
 
 
 }
-/*#acount{
-  background-image:url(../images/h1.jpeg) ;
-  background-repeat: no-repeat;
-  background-size: cover;
-}*/
 #acount p{
   font-family: 'Times New Roman', Times, serif;
   font-size: 24px;
@@ -62,4 +45,10 @@ h1{
 }
 .container1{
   display: none;
+}
+#Account{
+text-align: center;
+}
+body{
+  background-color: darkolivegreen;
 }
