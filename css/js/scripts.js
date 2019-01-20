@@ -28,7 +28,7 @@ $(document).ready(function(){
     
     $("button#ndo").click(function(){
         var deposit2=$('#mo').val();
-        console.log(deposit2)
+       
         $('#mo1').text(deposit2)
 
         var Withdraw = parseInt($('#ruku').val());
