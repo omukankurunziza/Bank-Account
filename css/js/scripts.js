@@ -30,7 +30,7 @@ $(document).ready(function(){
 
 });
 
-
+// Front end logic
 function Account(name, balance) {
     this.name = name;
     this.balance = balance;
@@ -52,3 +52,5 @@ function Account(name, balance) {
     }
     return false;
   }
+  // bussiness logic
+  
