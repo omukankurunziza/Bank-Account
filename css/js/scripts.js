@@ -17,9 +17,9 @@ $(document).ready(function(){
     if ($("button#submt")) {
 
         $("button#submt").click(function(){
-        var deposit2 = parseInt($('#bety').val());
-        var deposit = deposit2 + parseInt(student);
-        $('#mo').text(deposit);
+        var deposi = parseInt($('#bety').val());
+        var deposit1 = deposi + parseInt(student);
+        $('#mo').text(deposit1);
        
 
     })
@@ -27,12 +27,12 @@ $(document).ready(function(){
     }
     
     $("button#ndo").click(function(){
-        var deposit1=$('#mo').val();
-        console.log(deposit1)
-        $('#mo1').text(deposit1)
+        var deposit2=$('#mo').val();
+        console.log(deposit2)
+        $('#mo1').text(deposit2)
 
-        var deposit24 = parseInt($('#ruku').val());
-        var sum2 = parseInt(student)-deposit24;
+        var Withdraw = parseInt($('#ruku').val());
+        var sum2 = parseInt(student)- Withdraw;
         console.log(sum2)
         $('#mo1').text(sum2);
     
