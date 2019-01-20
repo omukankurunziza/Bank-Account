@@ -11,7 +11,7 @@ Mukankurunziza Opportunee
 * Google chrome
 * ubuntu operating system
 # BDD
-This is bank account project can deposit and withdraw money.
+This is bank account project you can create account and  can deposit and withdraw money on your account.
 # Technologies used
 * HTML
 * CSS
