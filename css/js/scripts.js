@@ -32,7 +32,7 @@ $(document).ready(function(){
         $('#mo1').text(deposit1)
 
         var deposit24 = parseInt($('#ruku').val());
-        var sum2 = parseInt(deposit1)-deposit24;
+        var sum2 = parseInt(student)-deposit24;
         console.log(sum2)
         $('#mo1').text(sum2);
     
