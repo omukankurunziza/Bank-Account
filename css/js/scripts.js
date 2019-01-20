@@ -3,27 +3,40 @@
 var student;
 $(document).ready(function(){
     $("button#new").click(function(){
-    $(".bank").hide();
+    $(".gikweri").hide();
     $(".container1").show();
 
     var name =$('#namee').val();
     
-    $('#dg').text(name);
+    $('#oppo').text(name);
 
     var student =$('#initial').val();
     console.log(student)
-    $('#mg').text(student);
+    $('#ange').text(student);
 
-    $("#submit").click(function(){
-        var kub = parseInt($('#kubitsa').val());
-        var withdr = parseInt($('#kubikuza').val());
-        
-        var sum = kub + parseInt(student);
-        $('#mg').text(sum);
-        // var sub =parseInt(student)-withdr;
-        // $('#mg').text(sub);
+    if ($("button#submt")) {
 
+        $("button#submt").click(function(){
+        var deposit2 = parseInt($('#bety').val());
+        var deposit = deposit2 + parseInt(student);
+        $('#mo').text(deposit);
        
+
+    })
+    
+    }
+    
+    $("button#ndo").click(function(){
+        var deposit1=$('#mo').val();
+        console.log(deposit1)
+        $('#mo1').text(deposit1)
+
+        var deposit24 = parseInt($('#ruku').val());
+        var sum2 = parseInt(deposit1)-deposit24;
+        console.log(sum2)
+        $('#mo1').text(sum2);
+    
+    
     });
 
 });
@@ -52,5 +65,6 @@ function Account(name, balance) {
     }
     return false;
   }
+  document.getElementById("mo").innerHTML="Current Balance: " +  deposit1 + "";
+  document.getElementById("mo1").innerHTML="Current Balance: " +  sum2 + "";
   // bussiness logic
-  
