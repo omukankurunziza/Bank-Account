@@ -1,7 +1,8 @@
 # Bank account
 # Author
 Mukankurunziza Opportunee
-
+# description
+This is bank account project you can create account and  can deposit and withdraw money on your account.
 # contact
 * Email:nshutioppo@yahoo.fr
 * 0785073251
